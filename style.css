@@ -1,0 +1,92 @@
+
+/**entende-se q é uma documentação de código
+ *
+
+/**
+*Folha de estilo personalizada do site...
+*@author Seu Nome
+ */
+
+/* Layout*/
+
+.flexFooter{
+    display: flex;
+    flex-direction: column-reverse;
+}
+ 
+
+/* Smartphone Portrait */
+body {
+    background-color: #000000;
+    color: #d3d3d3;
+}
+
+/* Rodapé */
+footer{
+    background-color: #343538;
+    color: #fff;
+    padding: 20px 0px;
+    text-align: center;
+}
+
+.icons{
+    margin-bottom: 30px;
+
+}
+
+.img{
+    margin-left: 10px; 
+    margin-right: 10px;
+}
+
+/* Smartphone Landscape */
+@media (min-width: 576px){
+    /*@media: só aplica o css se a condição for verdadeira
+    body {
+        background-color: #0c6eca;
+        color: #d3d3d3;
+    }
+    */
+
+    /* Rodapé */
+    .flexFooter{
+        flex-direction:row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .icons{
+        margin-bottom: 30px; 
+    }
+}
+
+/* Tablet Portrait */
+@media (min-width: 768px){
+    /*@media: só aplica o css se a condição for verdadeira*/
+    body {
+        background-color: #596e81;
+        color: #d3d3d3;
+    }
+    
+}
+
+/* Tablet Landscape */
+@media (min-width: 992px){
+    /*@media: só aplica o css se a condição for verdadeira*/
+    body {
+        background-color: #032544;
+        color: #d3d3d3;
+    }
+    
+}
+
+/* Desktop */
+@media (min-width: 1200px){
+    /*@media: só aplica o css se a condição for verdadeira*/
+    body {
+        background-color: #000000;
+        color: #d3d3d3;
+    }
+    
+}
+
