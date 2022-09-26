@@ -23,7 +23,7 @@ body {
 
 /* Rodapé */
 footer{
-    background-color: #343538;
+    background-color: #000000;
     color: #fff;
     padding: 20px 0px;
     text-align: center;
@@ -43,7 +43,7 @@ footer{
 @media (min-width: 576px){
     /*@media: só aplica o css se a condição for verdadeira
     body {
-        background-color: #0c6eca;
+        background-color: #000000;
         color: #d3d3d3;
     }
     */
@@ -64,7 +64,7 @@ footer{
 @media (min-width: 768px){
     /*@media: só aplica o css se a condição for verdadeira*/
     body {
-        background-color: #596e81;
+        background-color: #000000;
         color: #d3d3d3;
     }
     
@@ -74,7 +74,7 @@ footer{
 @media (min-width: 992px){
     /*@media: só aplica o css se a condição for verdadeira*/
     body {
-        background-color: #032544;
+        background-color: #000000;
         color: #d3d3d3;
     }
     
