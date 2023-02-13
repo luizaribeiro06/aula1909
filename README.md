@@ -1,2 +1,2 @@
 # 2EMIB
-Repositório de aula.
+Repositório de aula - Site Nike Inspiração.
